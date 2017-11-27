@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Colored Boxes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <!-- Application content starts here -->
+    <div class="main">
+        <h1>Colored Boxes</h1>
+        <div class="controls">
+            <label for="">Rows:</label>
+            <input class="rownum" type="number" value="3" />
+            <label for="">Columns:</label>
+            <input class="colnum" type="number" value="3" />
+            <button onclick="colorBoxes.updateGrid()">Update</button>
+        </div>
+        <br>
+        <section>
+            <div class="color-container">
+                <div class="addnew">+</div>
+            </div>
+        </section>
+        <section>
+            <div class="fill-container">
+            </div>
+            <br>
+        </section>
+    </div>
+
+    <!-- Application Content Ends here -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
